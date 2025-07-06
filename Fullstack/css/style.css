@@ -1,0 +1,49 @@
+body
+{
+  margin : 0;
+  height : 100vh;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-image : url(../Images/0106_hinh-nen-4k-may-tinh11.jpg);
+  background-size : cover;
+  background-repeat : no-repeat;
+  background-position : center;
+  font-family : Arial,sans-serif;
+}
+.login_box
+{
+  text-align : center;
+  background-color : rgba(255,255,255,0);
+  backdrop-filter : blur(6px);
+  padding : 40px;
+  border-radius : 20px;
+  color : white;
+  box-shadow : 0 0 20px rgba(0,0,0,0.5);
+  min-width : 320px;
+  opacity : 50px;
+}
+.a
+{
+  font-size : 30px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+}
+.c
+{
+  background-color: cyan;
+  padding : 10px;
+  width : 50%;
+  margin-top : 15px;
+  border : none;
+  border-radius : 20px;
+  cursor : pointer;
+  color : black;
+  font-weight : bold;
+}
